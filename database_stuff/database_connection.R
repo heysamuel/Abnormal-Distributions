@@ -1,4 +1,3 @@
-install.packages("RMySQL")
 library(RMySQL)
 mydb = dbConnect(MySQL(), user='root', password='', dbname='advanced_tech', host='localhost')
 dbListTables(mydb)
